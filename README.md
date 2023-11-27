@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jotion - Notion Clone with Next.js
+
+Welcome to the README file for Jotion, a Notion clone built with Next.js 13, React, Convex, and Tailwind.
+
+## Overview
+
+Jotion is a feature-rich, real-time collaborative document editor inspired by Notion. With a range of functionalities.
+
+### Key Features
+
+- **Real-time Database:** Enjoy the benefits of real-time collaboration with a robust database.
+- **Notion-style Editor:** Familiar and user-friendly editor for creating and editing documents.
+- **Light and Dark Mode:** Choose between light and dark modes for a personalized experience.
+- **Infinite Children Documents:** Easily organize and navigate through an unlimited number of child documents.
+- **Trash Can & Soft Delete:** Safeguard your data with a trash can and soft delete functionality.
+- **Authentication:** Secure your data and documents with user authentication.
+- **File Management:**
+  - File Upload
+  - File Deletion
+  - File Replacement
+- **Dynamic Icons:** Icons for each document that update in real-time.
+- **Expandable Sidebar:** Navigate effortlessly with an expandable sidebar.
+- **Mobile Responsiveness:** Enjoy a fully responsive design for a seamless experience on various devices.
+- **Publish to the Web:** Share your notes with the world by publishing them on the web.
+- **Collapsible Sidebar:** Maximize your workspace by collapsing the sidebar.
+- **Landing Page:** Welcome users with a landing page for an engaging experience.
+- **Cover Images:** Personalize your documents with cover images.
+- **Recover Deleted Files:** Easily recover accidentally deleted files.
 
 ## Getting Started
 
-First, run the development server:
+To run Jotion locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/myameen123/notion-clone.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate to the Project Directory:**
+   ```
+   cd notion-clone
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Install Dependencies:**
+   ```
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Start the Development Server:**
+   ```
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to explore Jotion locally.
 
-## Learn More
+## Live Demo:
 
-To learn more about Next.js, take a look at the following resources:
+You can test a live version of the application here: https://myameennotes.vercel.app//
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for using Jotion. Happy documenting! 🚀
